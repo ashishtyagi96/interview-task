@@ -1,0 +1,125 @@
+.colapsed-sidebar {
+  z-index: 11;
+  height: 100vh;
+  background-color: #140b42;
+  box-shadow: 3px -1px 6px 1px #ccc;
+  float: left;
+  width: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+img.logo {
+  width: 52.5px;
+  height: 52.5px;
+  flex-grow: 0;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 16px;
+}
+
+.menu-items-icon {
+  width: 52.5px;
+  height: 52.5px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.menu-items-1 {
+  flex-grow: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #140b42;
+  cursor: pointer;
+}
+
+
+img.house {
+  width: 20.5px;
+  height: 20.5px;
+  flex-grow: 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.sidebar-container-top {
+  width: 52.5px;
+  height: 189.5px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 0;
+}
+
+.sidebar-container-bottom {
+  width: 72px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.menu-group {
+  width: 52.5px;
+  height: 105px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.profile-widget {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.profile-widget .MuiBadge-badge {
+  border: solid 2px #fff;
+  background-color: #43b02a;
+  border-radius: 50%;
+  min-width: 12px;
+  height: 12px;
+}
+.menu-group .MuiBadge-badge {
+  background-color: #da291c;
+  border-radius: 50%;
+  min-width: 11px;
+  height: 11px;
+  top: 0px;
+  left: 8px;
+}
+
+
+
+
+
+

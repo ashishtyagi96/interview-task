@@ -1,0 +1,25 @@
+.filter-box{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid lightslategray;
+    cursor: pointer;
+}
+.filter-box:hover{
+    background-color: #efefef;
+}
+.filter-box > div{
+    text-align: center;
+}
+.selected-filter-box{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid lightslategray;
+    cursor: pointer;
+}
+.selected-filter-box:hover{
+    background-color: #efefef;
+}
+.selected-filter-box > div{
+    text-align: center;
+}
