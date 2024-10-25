@@ -15,20 +15,20 @@ The backend is a Python application.
    ```
 
 2. Install the dependencies:
-   - If you have `pip`:
+   - If you have `pip`, run:
      ```sh
      pip install -r requirements.txt
      ```
-   - If you have `pip3`:
+   - If you have `pip3`, run:
      ```sh
      pip3 install -r requirements.txt
      ```
 3. To load the data from file to SQLite database
-   - If you have `python`:
+   - If you have `python`, run:
      ```sh
      python load_data.py
      ```
-   - If you have `python3`:
+   - If you have `python3`, run:
      ```sh
      python3 load_data.py
      ```
