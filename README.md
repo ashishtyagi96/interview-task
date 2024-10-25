@@ -14,32 +14,20 @@ The backend is a Python application.
    cd backend
    ```
 
-2. Create a virtual environment:
-
-   ```sh
-   python -m venv venv
-   ```
-
-3. Activate the virtual environment:
-
-   - On Windows:
+2. Install the dependencies:
+   - If you have `pip`:
      ```sh
-     venv\Scripts\activate
+     pip install -r requirements.txt
      ```
-   - On macOS/Linux:
+   - If you have `pip3`:
      ```sh
-     source venv/bin/activate
+     pip3 install -r requirements.txt
      ```
-
-4. Install the dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 ### Running the Backend
 
 To start the backend server, run:
 
 ```sh
-python main.py
+uvicorn main:app --reload
 ```
